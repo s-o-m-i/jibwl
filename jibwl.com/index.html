@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    
+    />
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <script type="text/javascript">
+     function googleTranslateElementInit() {
+          new google.translate.TranslateElement({
+              pageLanguage: 'en',
+              layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+          }, 'google_translate_element');
+      }
+
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    
+   
+  </head>
+  <body>
+  
+
+
+
+
+    <div class="main">
+      <div class="hero">
+        <div class="bg-[rgba(0,0,0,0.5)] w-screen min-h-screen"></div>
+      </div>
+
+      <div
+      class="navbar flex items-center px-2 text-white justify-between sm:px-60 sm:py-5 relative z-50"
+    >
+      <img class="w-[150px]" src="public/images/officialLogo.png" alt="" />
+      
+      <i id="menu-button" class="ri-align-justify sm:hidden"></i>
+      <nav
+        id="menu"
+        class="smallscrn  sm:translate-y-0 sm:flex sm:flex-row flex-col items-center sm:gap-8 text-white absolute sm:static top-32 transition-all duration-1000"
+      >
+        <a href="#" class="uppercase  font-light text-lg block sm:inline"
+          >Home</a
+        >
+        <div class="relative mt-4 sm:mt-0" id="service-dropdown">
+          <a href="#" class="uppercase font-light text-lg block sm:inline cursor-pointer"
+            >Services <i class="ri-arrow-down-s-fill"></i>
+          </a>
+          <div
+            id="dropdown-menu"
+            class="absolute hidden bg-white text-black w-[300px] text-center p-2"
+          >
+            <h4
+              class="py-2 text-lg border-b-[1px] cursor-pointer border-[rgba(0,0,0,0.2)] hover:bg-black hover:text-orange-400 transition-all duration-300 ease-in-out"
+            >
+            Air Freight Logistics
+            </h4>
+
+            <h4
+              class="py-4 text-lg border-b-[1px] cursor-pointer border-[rgba(0,0,0,0.2)] hover:bg-black hover:text-orange-400 transition-all duration-300 ease-in-out"
+            >
+            International Air Freight
+            </h4>
+            <h4
+              class="py-4 text-lg border-b-[1px] cursor-pointer border-[rgba(0,0,0,0.2)] hover:bg-black hover:text-orange-400 transition-all duration-300 ease-in-out"
+            >
+            International Logistics
+            </h4>
+            <h4
+              class="py-4 text-lg border-b-[1px] cursor-pointer border-[rgba(0,0,0,0.2)] hover:bg-black hover:text-orange-400 transition-all duration-300 ease-in-out"
+            >
+            Int'l Sea Air Freight International Container Logistics
+            </h4>
+            <h4
+              class="py-4 text-lg border-b-[1px] cursor-pointer border-[rgba(0,0,0,0.2)] hover:bg-black hover:text-orange-400 transition-all duration-300 ease-in-out"
+            >
+            Storage
+            </h4>
+            <h4
+              class="py-4 text-lg border-b-[1px] cursor-pointer border-[rgba(0,0,0,0.2)] hover:bg-black hover:text-orange-400 transition-all duration-300 ease-in-out"
+            >
+            Delivery Van
+            </h4>
+          </div>
+        </div>
+        <a
+          href="#contact-us"
+          class="uppercase font-light text-lg block sm:inline mt-4 sm:mt-0"
+          >Contact Us</a
+        >
+        <a
+          href="#testimonials"
+          class="uppercase font-light text-lg block sm:inline mt-4 sm:mt-0"
+          >TESTIMONIALS</a
+        >
+        <a
+          href="#about-us"
+          class="uppercase font-light text-lg block sm:inline mt-4 sm:mt-0"
+          >About Us</a
+        >
+        <!-- <a href="#" class="uppercase font-light text-lg block sm:inline"
+          >Services</a
+        > -->
+      </nav>
+    </div>
+
+    
+      <!-- what we offer -->
+
+
+      <!-- transports -->
+       <!-- <div class="min-h-screen flex  justify-center relative"> -->
+        
+       
+      <div class="relative sm:flex justify-center p-2">
+        <div class="flex sm:flex-row flex-col">
+        <div class="img-box-one w-full sm:w-[450px] h-[450px] relative">
+          <div class="blacker w-full h-full bg-[rgba(0,0,0,0.5)]"></div>
+          <div
+            class="overlayOne flex text-center px-4 flex-col items-center text-white"
+          >
+            <h1 class="text-2xl">Air Transports</h1>
+            <p class="px-2">
+              Our air transport services provide rapid and reliable transportation of goods worldwide, with access to a vast network of airlines and routes. Our team expertly handles customs clearance, ensuring efficient delivery. Trust us to transport your goods by air with speed and precision.
+            </p>
+          </div>
+        </div>
+        <div class="img-box-two w-full mt-5 sm:mt-0 sm:w-[450px] h-[450px] relative">
+          <div class="blacker w-full h-full bg-[rgba(0,0,0,0.5)]"></div>
+          <div
+            class="overlayTwo flex text-center px-4 flex-col items-center text-white"
+          >
+            <h1 class="text-2xl">Cargo Ship</h1>
+            <p class="px-2">
+              Our cargo ships sail to destinations worldwide, providing reliable and efficient transportation of goods. With a fleet of modern vessels and expert crew, we ensure safe and timely delivery. Trust us to handle your cargo shipping needs with care and precision.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="flex  sm:flex-row flex-col">
+        <div class="img-box-three w-full mt-5 sm:mt-0 sm:w-[450px] h-[450px] relative">
+          <div class="blacker w-full h-full bg-[rgba(0,0,0,0.5)]"></div>
+          <div
+            class="overlayThree flex text-center px-4 flex-col items-center text-white"
+          >
+            <h1 class="text-2xl"> Global Air Freight</h1>
+            <p class="px-2">
+              Jibon Express international air freight services provide fast and reliable global transportation, connecting you to key markets worldwide. 
+            </p>
+          </div>
+        </div>
+        <div class="img-box-four w-full mt-5 sm:mt-0 sm:w-[450px] h-[450px] relative">
+          <div class="blacker w-full h-full bg-[rgba(0,0,0,0.5)]"></div>
+      
+
+          <div
+            class="overlayFour flex text-center px-4 flex-col items-center text-white"
+          >
+            <h1 class="text-2xl">Ware Housing</h1>
+            <p class="px-2">
+              Our warehousing services provide secure and efficient storage solutions, with modern facilities and expert staff managing your inventory. We offer flexible storage options, real-time tracking, and timely order fulfillment. Trust us to handle your warehousing needs with care and precision.
+            </p>
+          </div>
+        </div>
+      </div>
+      </div>
+    <!-- </div> -->
+
+
+      <div class="offer-section relative bg-white min-h-screen sm:px-0 px-4 pb-20">
+
+        <div
+          class="box-card relative -top-20 flex md:flex-row flex-col items-center justify-center -mt-100"
+        >
+          <div
+            class="card bg-[#F89D14] text-center text-white flex flex-col items-center py-5 px-12 w-full sm:w-96 h-[380px]"
+          >
+            <div
+              class="circle w-16 h-16 border-2 flex items-center justify-center border-white rounded-full"
+            >
+              <h4 class="text-4xl">$</h4>
+            </div>
+            <h2 class="font-normal text-2xl mt-5">24/7 SUPPORT</h2>
+            <p class="font-light mt-3">
+              At Jibon Express, we understand that your business operates around the clock, and so do we. Our dedicated team is available 24 hours a day, 7 days a week to ensure that your shipments are always on track.
+
+            </p>
+          </div>
+
+          <div
+            class="card bg-[#343A40] text-white py-5 px-12 w-full sm:w-96 h-[550px]"
+          >
+            <h2 class="font-normal text-2xl mt-5 text-center">
+              GET FREE QUOTE
+            </h2>
+            <form action="https://formspree.io/f/xovaqrlg" method="POST">
+              <h5 class="text-gray-400 mb-2 mt-5">Name</h5>
+              <input
+                name="name"
+                type="text"
+                placeholder=" Enter Name"
+                class="bg-transparent border-[1px] outline-none border-gray-400 w-full p-2"
+                autocomplete="off"
+              />
+              <h5 class="text-gray-400 mb-2 mt-5">Email</h5>
+              <input
+                type="text"
+                placeholder=" Enter Email"
+                class="bg-transparent border-[1px] outline-none border-gray-400 w-full p-2"
+                name="email"
+                autocomplete="off"
+              />
+              <h5 class="text-gray-400 mb-2 mt-5">Message</h5>
+              <textarea
+                rows="5"
+                class="bg-transparent w-full resize-none border-[1px] p-2 border-gray-400 outline-none"
+                name="message"
+                id=""
+              ></textarea>
+              <button
+                type="submit"
+                class="bg-[#E18A06] w-full py-2 mt-9 capitalize text-xl font-normal hover:bg-transparent hover:border-[1px] transition-all border-white"
+              >
+                get quote
+              </button>
+            </form>
+          </div>
+
+          <div
+            class="card bg-[#F89D14] text-center text-white flex flex-col items-center py-5 px-12 w-full sm:w-96 h-[380px]"
+          >
+            <div
+              class="circle w-16 h-16  border-2 flex items-center justify-center border-white rounded-full"
+            >
+              <!-- <i class="fa-solid fa-phone"></i> -->
+              <i class="ri-phone-fill text-2xl"></i>
+            </div>
+            <h2 class="font-normal text-2xl mt-5">24/7 SUPPORT</h2>
+            <p class="font-light mt-3">
+              - Real-time Tracking: Monitor your shipments in real-time, anytime, anywhere.<br>
+- Emergency Assistance: Get immediate help with any unexpected issues or delays.<br>
+- Priority Support: Enjoy priority assistance for your time-sensitive shipments.<br>
+
+            </p>
+          </div>
+        </div>
+
+        <div class="flex items-center justify-center sm:mt-20 sm:py-20">
+          <div>
+            <div class="text-center">
+              <h2 class="text-[#F89D14] text-3xl sm:text-4xl font-bold">WHAT WE OFFER</h2>
+              <h3 class="font-normal text-gray-400 pb-5">
+                At  jibon express, we offer:
+
+              </h3>
+              <div class="flex justify-center">
+                <div class="min-h-1 bg-[#F89D14] w-14"></div>
+              </div>
+            </div>
+
+            <div class="grid grid-cols-12 mt-20">
+              <div
+                class="card  col-span-12 md:col-span-4 col-span-12:col-span-4 flex  items-start gap-5  w-full-md:full md:w-96 md:px-5 md:py-10
+             
+                 "
+                 
+              >
+                <div class="logo">
+                  <i class="ri-flight-takeoff-line text-5xl text-[#F89D14]"></i>
+                </div>
+                <div class="card-content ">
+                  <h2 class="text-xl text-gray-600 font-medium">Air Freight</h2>
+                  <p class="mt-2 w-full md w-full:md:w-72 text-gray-500">
+                    Get your goods delivered quickly and efficiently with our extensive network of air freight services.
+
+                  </p>
+                  <p class="mt-2 text-[#F89D14]"></p>
+                </div>
+              </div>
+
+              <div
+                class="card  mt-20 sm:mt-0 col-span-12 md:col-span-4 flex items-start gap-5 w-full md:w-96 md:px-5 md:py-10 "
+              >
+                <div class="logo">
+                  <i class="ri-ship-fill text-5xl text-[#F89D14]"></i>
+               
+                </div>
+                <div class="card-content">
+                  <h2 class="text-xl text-gray-600">Ocean Freight</h2>
+                  <p class="mt-2 w-full md:w-72 text-gray-500">
+                    Trust us to handle your ocean freight needs with our experienced team and robust global connections.
+
+                  </p>
+                  <p class="mt-2 text-[#F89D14]"></p>
+                </div>
+              </div>
+
+              <div
+                class="card mt-20 sm:mt-0 col-span-12 md:col-span-4 flex items-start gap-5 w-full md:w-96 md:px-5 md:py-10"
+              >
+                <div class="logo">
+                  <!-- <i class="ri-plane-fill text-5xl text-[#F89D14]"></i> -->
+                  <i
+                    class="ri-truck-fill text-5xl text-[#F89D14]"
+                    ></i>
+                    <!-- <i class=""></i> -->
+                </div>
+                <div class="card-content">
+                  <h2 class="text-xl text-gray-600">Ground Shipping</h2>
+                  <p class="mt-2 w-full md:w-72 text-gray-500">
+                    Leverage our vast network to reach your customers and suppliers worldwide.
+
+                  </p>
+                  <p class="mt-2 text-[#F89D14]"></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="h-line hidden  mt-5 mb-5 sm:flex justify-center">
+          <div class="h-[1px] w-full bg-[rgba(0,0,0,0.2)]"></div>
+        </div>
+
+      </div>
+
+      <!-- about us -->
+
+      <div id="about-us" class="about-section min-h-screen bg-white relative">
+        <div class="text-center">
+          <h2 class="text-[#F89D14] text-5xl font-bold">About Us</h2>
+     
+          <div class="flex justify-center mt-2">
+            <div class="min-h-1 bg-[#F89D14] w-28"></div>
+          </div>
+        </div>
+        <div class="grid grid-cols-12 mt-20 pb-8 sm:pb-0">
+          <div
+            class="p-2 mt-10 sm:mt-0 col-span-12 order-2 sm:col-span-6 flex justify-center items-center"
+          >
+            <div>
+              <h1 class="sm:text-5xl text-4xl font-medium">What is Jibon Express</h1>
+              <p class="mt-5 w-full sm:w-[500px] text-[rgba(0,0,0,0.5)] font-normal text-md sm:text-lg">
+                At  jibon express, we are a team of logistics experts dedicated to providing fast, reliable, and cost-effective shipping solutions from China to worldwide destinations. With years of experience in the industry, we have built a robust network of connections and expertise to ensure your goods reach their destination efficiently.<br>
+                <br>
+                Our mission is to empower businesses like yours to reach new heights by providing seamless logistics solutions. We strive to build long-term partnerships with our customers, understanding their unique needs and tailoring our services to meet their goals.
+
+              </p>
+              <a href="https://api.whatsapp.com/send?phone=8618933996449" target="_blank">
+                <button
+                class="bg-[#E18A06] text-white  px-8  sm:px-14 py-4 mt-9 capitalize text-lg md:text-xl font-normal duration-300 linear hover:border-[1px] transition-all  hover:bg-black hover:text-[#E18A06] border-white"
+                >
+                get started!
+              </button>
+            </a>
+            </div>
+          </div>
+          <div
+            class="p-2 col-span-12 order-1 sm:col-span-6 flex justify-center items-center"
+          >
+            <img
+              class="w-[500px]  rounded h-[400px] sm:h-[500px] shadow-[rgba(0,_0,_0,_0.4)_0px_30px_90px] transition-all duration-300"
+              src="public/images/allTransports.webp"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+
+
+
+     
+
+
+
+
+      <!-- try services -->
+      <div
+        id="tryservices"
+        class="try-services h-96 relative flex items-center min-h-screen justify-center text-white"
+      >
+<div>      <div
+      class="hero-page px-2  text-white relative  w-full flex items-center justify-center"
+    >
+      <div class="text-center">
+        <h1 class="text-4xl sm:text-7xl  font-bold">
+          Expedite Your Global Trade with Jibon Express
+          
+        </h1>
+        <h1 class="text-4xl sm:text-7xl mt-2  font-bold">
+          
+          Fast and Reliable Shipping 
+        </h1>
+        
+        <a href="https://api.whatsapp.com/send?phone=8618933996449" target="_blank">
+        <!-- <button
+          class="bg-[#E18A06] px-16 sm:px-14 py-4 mt-9 duration-300 linear capitalize text-xl font-normal hover:bg-transparent hover:border-[1px] transition-all border-white"
+        >
+          get started!
+        </button> -->
+      </a>
+      </div>
+    </div>
+
+
+        <div class="text-center mt-20">
+          <h1 class="text-4xl sm:text-5xl">Try Our Services</h1>
+          <a href="https://api.whatsapp.com/send?phone=8618933996449" target="_blank">
+          <button
+            class="bg-[#E18A06] px-14 py-4 mt-9 capitalize text-lg md:text-xl font-normal duration-300 linear hover:bg-transparent hover:border-[1px] transition-all transit border-white"
+          >
+            get started!
+          </button>
+        </a>
+        </div>
+      </div>
+
+      </div>
+
+      <!-- more services -->
+      <div
+        id="services"
+        class="offer-section relative py-8 sm:py-10 bg-white 
+         flex items-center justify-center"
+      >
+        <div>
+          <div class="text-center">
+            <h2 class="text-[#F89D14] text-4xl font-bold">MORE SERVICES</h2>
+            <h3 class="font-normal text-gray-400 pb-5">
+              We Offer The Following Services
+            </h3>
+            <div class="flex justify-center">
+              <div class="min-h-1 bg-[#F89D14] w-14"></div>
+            </div>
+          </div>
+
+    
+          <div class="grid grid-cols-12 mt-10">
+            <div
+              class="card col-span-12 md:col-span-4 flex items-start gap-5 w-full md:w-96 p-2"
+            >
+              <div class="logo">
+                
+                <img class="text-blue-500 w-[200px] sm:w-[100%] " src="public/images/warehouse.png" alt="">
+              </div>
+              <div class="card-content">
+                <h2 class="text-xl text-gray-600">Warehousing</h2>
+                <p class="mt-2 w-full md:w-72 text-gray-500">
+                  Our secure and efficient warehousing solutions offer flexible storage options, inventory management, and order fulfillment services to streamline your supply chain. With 24/7 monitoring and strategic locations, our warehouses ensure your goods are safe and readily available. Let us handle your storage needs, so you can focus on growing your business .
+                </p>
+                <p class="mt-2 text-[#F89D14]"></p>
+              </div>
+            </div>
+
+            <div
+              class="card mt-8 sm:mt-0 col-span-12 md:col-span-4 flex items-start gap-5 w-full md:w-96 p-2"
+            >
+              <div class="logo">
+                <img class="text-blue-500 w-[200px] sm:w-[100%]" src="public/images/database-storage.png" alt="">
+              </div>
+              <div class="card-content">
+                <h2 class="text-xl text-gray-600">Storage</h2>
+                <p class="mt-2 w-full md:w-72 text-gray-500">
+                  
+Our secure and climate-controlled storage facilities ensure your goods are protected from damage and degradation. With flexible storage options and 24/7 access, our facilities provide a safe and convenient solution for your storage needs. Store your goods with us and enjoy peace of mind, knowing they're in good hands.
+                </p>
+                <p class="mt-2 text-[#F89D14]"></p>
+              </div>
+            </div>
+
+            <div
+              class="card mt-8 sm:mt-0 col-span-12 md:col-span-4 flex items-start gap-5 w-full md:w-96 p-2"
+            >
+              <div class="logo">
+                <img class="text-blue-500 w-[200px] sm:w-[100%]" src="public/images/truck.png" alt="">
+              </div>
+              <div class="card-content">
+                <h2 class="text-xl text-gray-600">Delivery Van</h2>
+                <p class="mt-2 w-full md:w-72 text-gray-500">
+                  Our fleet of reliable delivery vans ensures your goods arrive promptly and in perfect condition. Equipped with real-time tracking and GPS navigation, our vans provide a efficient and secure delivery solution. Trust us to transport your goods with care, from warehouse to doorstep.
+                </p>
+                <p class="mt-2 text-[#F89D14]"></p>
+              </div>
+            </div>
+          </div>
+          <div class="grid grid-cols-12 mt-10 pl-4 sm:pl-0">
+            <div
+              class="card col-span-12 md:col-span-4 col-span-12:col-span-4 flex items-start gap-5 w w-full-md:full md:w-96 md:p-2"
+            >
+              <div class="logo">
+                <!-- <i class="ri-plane-fill text-5xl text-[#F89D14]"></i> -->
+                <!-- <i
+                  class="fa-solid fa-plane-departure "
+                ></i> -->
+                <i class="ri-flight-takeoff-line text-5xl text-[#F89D14]"></i>
+              </div>
+              <div class="card-content">
+                <h2 class="text-xl text-gray-600">Air Freight</h2>
+                <p class="mt-2 w-full md w-full:md:w-72 text-gray-500">
+                  Our air freight services provide fast and reliable transportation of your goods worldwide. With access to a global network of airlines and airports, we ensure timely delivery and seamless customs clearance. Trust us to handle your air freight needs with speed and precision.
+                </p>
+                <p class="mt-2 text-[#F89D14]"></p>
+              </div>
+            </div>
+
+            <div
+              class="card mt-8 sm:mt-0 col-span-12 md:col-span-4 flex items-start gap-5 w-full md:w-96 md:p-2"
+            >
+              <div class="logo">
+                <i class="ri-ship-fill text-5xl text-[#F89D14]"></i>
+                <!-- <i class=""></i> -->
+              </div>
+              <div class="card-content">
+                <h2 class="text-xl text-gray-600">Ocean Freight</h2>
+                <p class="mt-2 w-full md:w-72 text-gray-500">
+                  Our ocean freight services offer reliable and cost-effective transportation of your goods worldwide. With a strong network of carriers and terminals, we ensure safe and efficient transit. Trust us to handle your ocean freight needs with expertise and care.
+                </p>
+                <p class="mt-2 text-[#F89D14]"></p>
+              </div>
+            </div>
+
+            <div
+              class="card mt-8 sm:mt-0 col-span-12 md:col-span-4 flex items-start gap-5 w-full md:w-96 md:p-2"
+            >
+              <div class="logo">
+                <!-- <i class="ri-plane-fill text-5xl text-[#F89D14]"></i> -->
+                <i
+                  class="ri-truck-fill text-5xl text-[#F89D14]"
+                  ></i>
+                  <!-- <i class=""></i> -->
+              </div>
+              <div class="card-content">
+                <h2 class="text-xl text-gray-600">Ground Shipping</h2>
+                <p class="mt-2 w-full md:w-72 text-gray-500">
+                  Our ground shipping services provide efficient and cost-effective transportation of your goods across the continent. With a vast network of routes and terminals, we ensure timely delivery and seamless tracking. Trust us to handle your ground shipping needs with reliability and care.
+                </p>
+                <p class="mt-2 text-[#F89D14]"></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- testimonials -->
+
+      <div id="testimonials" class="testimonials bg-white relative pt-8  sm:py-20">
+        <h1 class="text-[#F89D14] text-3xl sm:text-4xl font-bold text-center">
+          TESTIMONIALS
+        </h1>
+        <div class="h-line mt-2 sm:mb-5 flex justify-center">
+          <div class="h-[3px] w-[100px] bg-[#F89D14]"></div>
+        </div>
+
+        <div class="slider relative">
+          <div class="list">
+            <div class="item">
+              <div
+                class="card text-center w-[1300px] text-black flex justify-center items-center py-5  sm:px-20"
+              >
+                <div>
+                  <div class="image-box flex justify-center">
+                    <img
+                      class="w-28 rounded-full"
+                      src="public/images/person_3.jpg.webp"
+                      alt=""
+                    />
+                  </div>
+
+                  <h2 class="font-normal text-2xl mt-5">Emily R</h2>
+                  <p class="font-light mt-5 w-full sm:w-[700px]">
+                  Jibon Express has been a game-changer for our business. Their fast and reliable shipping solutions have reduced our delivery times by 30%!
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div
+                class="card text-center w-[1300px] text-black flex justify-center items-center py-5 sm:px-20"
+              >
+                <div>
+                  <div class="image-box flex justify-center">
+                    <img
+                      class="w-20 rounded-full"
+                      src="public/images/person_3.jpg.webp"
+                      alt=""
+                    />
+                  </div>
+
+                  <h2 class="font-normal text-2xl mt-5">David K</h2>
+                  <p class="font-light mt-5 w-full sm:w-[700px]">
+                    We were impressed by Jibon Express expertise in handling our fragile shipments. Their care and attention to detail are unmatched
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div
+                class="card text-center w-[1300px] text-black flex justify-center items-center py-5 sm:px-20"
+              >
+                <div>
+                  <div class="image-box flex justify-center">
+                    <img
+                      class="w-20 rounded-full"
+                      src="public/images/person_3.jpg.webp"
+                      alt=""
+                    />
+                  </div>
+
+                  <h2 class="font-normal text-2xl mt-5">Rachel</h2>
+                  <p class="font-light mt-5 w-full sm:w-[700px]">
+                    Jibon Express customer service is top-notch! Their team is always available to answer our questions and resolve any issues promptly.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="buttons">
+            <button id="prev"><</button>
+            <button id="next">></button>
+          </div>
+          <ul class="dots">
+            <li class="active"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
+        <!-- <div class="h-line mt-2">
+          <div class="h-[3px] bg-[rgba(0,0,0,0.2)]"></div>
+        </div> -->
+      </div>
+
+      <!-- contact us -->
+      <div
+        id="contact-us"
+        class="contact-section  bg-white relative  pb-20 "
+      >
+        <div class="text-center">
+          <h2 class="text-[#F89D14] text-4xl font-bold">Contact Us</h2>
+
+          <div class="flex justify-center">
+            <div class="min-h-1 bg-[#F89D14] w-14"></div>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-12 mt-12">
+          <div class="col-span-12 sm:col-span-4 flex justify-center px-3 sm:px-0">
+            <div
+              class="shadow-[0_3px_10px_rgb(0,0,0,0.2)] hover:shadow-[rgba(0,_0,_0,_0.4)_0px_30px_90px] transition-all duration-300  contact-card w-[500px] h-[300px] flex items-center justify-center flex-col text-center p-4 rounded-md"
+            >
+              <div class="icon-box text-5xl text-gray-500">
+                <a href="https://api.whatsapp.com/send?phone=8618933996449" target="_blank">
+                  <i class="ri-whatsapp-line text-green-500"></i>
+                </a>
+                
+              </div>
+              <h1 class="text-3xl">Whatsapp</h1>
+              <p class="mt-4 text-[rgba(0,0,0,0.6)]">
+                We're always available to answer your questions, provide a quote, or assist with your logistics needs. Choose your preferred method below to contact us
+              </p>
+            </div>
+          </div>
+          <div class="col-span-12 sm:col-span-4 flex justify-center px-3 sm:px-0 sm:mt-0  mt-8">
+            <a href="https://www.facebook.com/profile.php?id=61561981149015&mibextid=LQQJ4d" target="_blank">
+            <div
+              class="shadow-[0_3px_10px_rgb(0,0,0,0.2)] hover:shadow-[rgba(0,_0,_0,_0.4)_0px_30px_90px] transition-all duration-300  contact-card w-full sm:w-[500px] h-[300px] flex items-center justify-center flex-col text-center p-4 rounded-md"
+            >
+              <div class="icon-box text-5xl text-gray-500">
+             
+                  <!-- <i class="fa-brands fa-whatsapp"></i> -->
+                  <i class="ri-facebook-circle-fill text-blue-400"></i>
+               
+              </div>
+              <h1 class="text-3xl">Facebook</h1>
+              <p class="mt-4 text-[rgba(0,0,0,0.6)]">
+                We're always available to answer your questions, provide a quote, or assist with your logistics needs. Choose your preferred method below to contact us
+
+              </p>
+            </div>
+            </a>
+          </div>
+          <div class="col-span-12 sm:col-span-4 flex justify-center px-3 sm:px-0 sm:mt-0  mt-8 ">
+            <div
+              class="shadow-[0_3px_10px_rgb(0,0,0,0.2)] transition-all duration-300  hover:shadow-[rgba(0,_0,_0,_0.4)_0px_30px_90px] contact-card w-full sm:w-[500px] sm:h-[300px]  h-[350px] flex items-center justify-center flex-col text-center p-4 rounded-md"
+            >
+            
+              <img
+                class="w-[100px]"
+                src="public/images/wechatqrcode.jpeg"
+                alt=""
+              />
+              <h1 class="text-3xl">WeChat</h1>
+              <p class="mt-4 text-[rgba(0,0,0,0.6)]">
+                We're always available to answer your questions, provide a quote, or assist with your logistics needs. Choose your preferred method below to contact us
+              </p>
+            </div>
+          </div>
+          
+        </div>
+        
+      </div>
+
+      <!-- footer -->
+
+      
+      <div class="footer px-2 text-white bg-[#333333]  relative py-5">
+        <div class="flex md:flex-row flex-col justify-center md:gap-32">
+          <div class="quicklinks">
+            <h3 class="text-lg font-medium">Social media</h3>
+
+            <h3 class="mt-5 text-gray-500 font-normal">WeChat</h3>
+            <h3 class="mt-2 text-gray-500 font-normal">Facebook</h3>
+            <h3 class="mt-2 text-gray-500 font-normal">whatsapp</h3>
+          </div>
+        
+          <div class="followus items-center">
+            <h3 class="text-lg">Follow Us</h3>
+
+            <div class="my-2 ">
+
+           <div class="flex gap-4 items-center">
+              <div class="icon-box text-gray-500">
+                
+
+                  <i class="ri-wechat-fill text-3xl"></i>
+              
+              </div>
+              <div class="icon-box text-gray-500">
+                <a href="">
+                <i class="ri-facebook-circle-fill text-3xl"></i>
+              </a>
+              </div>
+            </div>
+   <div class="flex items-center gap-4">
+
+              
+
+             
+             
+              <div class="icon-box text-gray-500">
+                
+                <a href="https://api.whatsapp.com/send?phone=8618933996449" target="_blank">
+                  
+                  <i class="ri-whatsapp-line text-3xl"></i>
+                </a>
+              </div>
+
+            </div>
+            
+             
+             
+            </div>
+          </div>
+
+          <div id="google_translate_element"></div>
+
+
+          <!-- <div class="SubscribeNewsLetter">
+            <h3 class="text-lg">Subscribe Newsletter</h3>
+            <div class="flex items-center mt-5">
+              <input
+                type="text"
+                placeholder=" Enter Name"
+                class="bg-transparent border-[1px] outline-none border-gray-400 w-full md:w-[] p-2"
+              />
+              <button
+                class="bg-[#E18A06] px-2 py-2 uppercase text-lg font-normal"
+              >
+                Send
+              </button>
+            </div>
+          </div> -->
+        </div>
+
+        <div class="h-line my-10">
+          <div class="h-[1px] bg-gray-700"></div>
+        </div>
+
+        <div
+          class="copyright flex items-center text-gray-500 justify-center text-center md:text-left"
+        >
+          <h4>
+            Copyright ©2024 All rights reserved |Jibwl.com
+          </h4>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+
+    
+  </body>
+</html>
